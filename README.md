@@ -18,8 +18,11 @@ This step allows you to get the commit details from a given project. Great for e
 
 # How it works
 These steps pull from various API endpoints in GitLab to get commit detils.
+
 [Get All Commits](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits)
+
 [Get Single Commit](https://docs.gitlab.com/ee/api/commits.html#get-a-single-commit)
+
 [Get Projects](https://docs.gitlab.com/ee/api/projects.html#list-user-projects)
 
 
