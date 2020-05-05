@@ -33,14 +33,16 @@ If you are trying to access a public project, then none.
 
 If your project is private, then you will need to authenticate with an API Token.
 
------------------------- Instructions here -------------------
+Create a Personal API Token by following [these](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token) instructions.
 
 ## xMatters Setup
 1. Download the [GitLab.zip](GitLab.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 
-Optionally change the GitLab endpoint if your project is hosted outside of GitLab.
+Optionally:
+- Change the GitLab endpoint if your project is hosted outside of GitLab.
+- Add an authentication token constant and provide it when calling a GitLab step.
 
 
 ## Usage
@@ -88,7 +90,7 @@ Optionally change the GitLab endpoint if your project is hosted outside of GitLa
 | Projects | List of Project Objects |
 
 ## Example
-This is an example using the GitLab steps in order to get commit details from a repo.
+This is the flow provided.
 
 <kbd>
 	<img src="/media/ExampleFlow.png">
