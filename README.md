@@ -1,4 +1,4 @@
-# GitLab Steps
+# GitLab 
 
 This step allows you to get the commit details from a given project. Great for enriching notifications with relevant code commit information. 
 
