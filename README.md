@@ -63,12 +63,29 @@ Optionally change the GitLab endpoint if your project is hosted outside of GitLa
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
 | Project ID | Yes | 0 | 2000 | The ID or URL-encoded path of the project owned by the authenticated user | | No |
+| SHA | Yes | 0 | 2000 | The commit hash or name of a repository branch or tag | | No |
 
 ### Outputs
 | Name | Description |
 | ---- | ----------  |
-| Commit | Commit Object |
+| URL | URL of the project |
+| Author_Name | Full name of the author |
+| Author_Email | Email address of the author |
+| Timestamp | Timestamp of the commit |
+| Message | Commit message |
 
+-----------
+**Get Projects**
+
+### Inputs
+| Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
+| ----- | ----------| --- | --- | --------- | ------------- | --------- |
+| User ID | Yes | 0 | 2000 | The ID or username of the user | | No |
+
+### Outputs
+| Name | Description |
+| ---- | ----------  |
+| Projects | List of Project Objects |
 
 ## Example
 This is an example using the GitLab steps in order to get commit details from a repo.
