@@ -18,6 +18,9 @@ This step allows you to get the commit details from a given project. Great for e
 
 # How it works
 These steps pull from various API endpoints in GitLab to get commit detils.
+[Get All Commits](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits)
+[Get Single Commit](https://docs.gitlab.com/ee/api/commits.html#get-a-single-commit)
+[Get Projects](https://docs.gitlab.com/ee/api/projects.html#list-user-projects)
 
 
 # Installation
@@ -38,6 +41,30 @@ Optionally change the GitLab endpoint if your project is hosted outside of GitLa
 
 
 ## Usage
+**Get All Commits**
+
+### Inputs
+| Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
+| ----- | ----------| --- | --- | --------- | ------------- | --------- |
+| Project ID | Yes | 0 | 2000 | The ID or URL-encoded path of the project owned by the authenticated user | | No |
+
+### Outputs
+| Name | Description |
+| ---- | ----------  |
+| Commits | List of Commit Objects |
+
+-----------
+**Get Single Commit**
+
+### Inputs
+| Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
+| ----- | ----------| --- | --- | --------- | ------------- | --------- |
+| Project ID | Yes | 0 | 2000 | The ID or URL-encoded path of the project owned by the authenticated user | | No |
+
+### Outputs
+| Name | Description |
+| ---- | ----------  |
+| Commit | Commit Object |
 
 
 ## Example
