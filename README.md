@@ -1,6 +1,6 @@
-# GitLab 
+# GitLab Steps
 
-This step allows you to get the commit details from a given project. Great for enriching notifications with relevant code commit information. 
+These steps allow you to get the commit details from a given project. Great for enriching notifications with relevant code commit information. 
 
 
 ---------
@@ -13,7 +13,7 @@ This step allows you to get the commit details from a given project. Great for e
 
 # Files
 
-* [GitLab.zip](GitLab.zip) - Workflow zip file with these steps and example flow
+* [GitLabSteps.zip](GitLabSteps.zip) - Workflow zip file with these steps and example flow
 * [gitlab.png](/gitlab.png) - GitLab logo
 
 # How it works
@@ -36,7 +36,7 @@ If your project is private, then you will need to authenticate with an API Token
 Create a Personal API Token by following [these](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token) instructions.
 
 ## xMatters Setup
-1. Download the [GitLab.zip](GitLab.zip) file onto your local computer
+1. Download the [GitLabSteps.zip](GitLabSteps.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 
